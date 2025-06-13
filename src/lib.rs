@@ -27,7 +27,7 @@ pub fn is_prime(number: i32) -> bool {
     true
 }
 
-// // Greatest common divisor
+// Greatest common divisor
 pub fn gcd(number_1: i32, number_2: i32) -> i32 {
     let mut result: i32 = 1;
     let min = min(number_1, number_2);
